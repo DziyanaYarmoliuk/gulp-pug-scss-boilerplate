@@ -1,2 +1,2 @@
-console.log('Example')
-;
+const test = 'Example';
+console.log(test);
