@@ -12,7 +12,7 @@ const concat = require('gulp-concat')
 const babel = require('gulp-babel')
 const pump = require('pump')
 
-// files paths
+// Files paths
 const path = {
   build: './build',
   css: {
@@ -111,7 +111,7 @@ gulp.task('images', done => {
   done()
 })
 
-//Fonts
+// Fonts
 gulp.task('fonts', done => {
   gulp
     .src(path.fonts.source)
